@@ -1,0 +1,8 @@
+Modify MainActivity.smali (or correct entrypoint) after decompiling.
+
+Inject the following inside the onCreate method:
+
+    const v0, 0x7f0a0000  # Replace with layout ID of hacked_screen.xml
+    invoke-virtual {p0, v0}, Lcom/metasploit/stage/MainActivity;->setContentView(I)V
+
+This forces the hacked screen to display immediately on launch.

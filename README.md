@@ -19,7 +19,7 @@ apktool d base.apk -o hacked_source
 
 ---
 
-3. Inject Decoy Screen
+3. Inject Decoy Screen   (Edit the "src" jpg link of picture or gif to change)
 
 - Place `hacked_screen.xml` into:
   ```
